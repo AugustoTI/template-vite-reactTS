@@ -25,7 +25,9 @@ own.😎👍🏻
 > create a `settings.json` file with the following configuration check:
 
 ```json
-  "prettier.configPath": "./.prettierrc.js",
+{
+  "prettier.configPath": "./.prettierrc.js"
+}
 ```
 
 ### **ESLint**
