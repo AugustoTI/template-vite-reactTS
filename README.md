@@ -43,7 +43,7 @@ ways of writing and etc... <br>
 
 It is an "improvement" of the browser's Fetch API. It brings more facilities for
 you to handle HTTP requests and much more. I recommend reading the
-[Documentation](https://axios-http.com/docs/intro).
+[Documentation of Axios](https://axios-http.com/docs/intro).
 
 ### **Vitest**
 
@@ -53,13 +53,15 @@ compatible! 😎 (That is, if you know Jest, you don't need to learn another
 testing framework. However, I strongly recommend reading the documentation which
 is very rich)
 
-[Documentation of Vitest](https://vitest.dev/).
-[Documentation of Testing Library](https://testing-library.com/docs/).
+[Documentation of Vitest](https://vitest.dev/) |
+[Documentation of Testing Library](https://testing-library.com/docs/react-testing-library/intro).
 
 ### **Styled-Components**
 
 A super popular style component creation library! ✨ Create your stylized
 components easily with CSS in JS with amazing library
+
+[Documentation of Styled-Components](https://styled-components.com/docs)
 
 ```bash
   git clone https://github.com/AugustoTI/template-vite-reactTS.git <project name>
@@ -68,4 +70,5 @@ components easily with CSS in JS with amazing library
   yarn start
 ```
 
-> don't forget to rename the project in `package.json`
+> don't forget to rename the project in `package.json` and remove the hidden
+> `.git` folder from the project
