@@ -26,7 +26,7 @@ own.😎👍🏻
 
 ```json
 {
-  "prettier.configPath": "./.prettierrc.js"
+  "prettier.configPath": "./.prettierrc.json"
 }
 ```
 
