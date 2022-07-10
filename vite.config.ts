@@ -4,7 +4,6 @@ import react from '@vitejs/plugin-react';
 import svgr from 'vite-plugin-svgr';
 import tsconfigPath from 'vite-tsconfig-paths';
 // For legacy browsers
-// https://github.com/vitejs/vite/tree/main/packages/plugin-legacy
 import legacy from '@vitejs/plugin-legacy';
 
 // https://vitejs.dev/config/
