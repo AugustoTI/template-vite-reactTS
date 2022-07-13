@@ -10,7 +10,6 @@ template over time, adding a few more things that make it easier to develop 🚀
 - ESLint
 - Axios
 - Vitest (Vite's Super Testing Framework)
-- Styled-Components
 
 ---
 
@@ -55,13 +54,6 @@ is very rich)
 
 [Documentation of Vitest](https://vitest.dev/) |
 [Documentation of Testing Library](https://testing-library.com/docs/react-testing-library/intro).
-
-### **Styled-Components**
-
-A super popular style component creation library! ✨ Create your stylized
-components easily with CSS in JS with amazing library
-
-[Documentation of Styled-Components](https://styled-components.com/docs)
 
 ```bash
   git clone https://github.com/AugustoTI/template-vite-reactTS.git <project name>
