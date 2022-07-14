@@ -6,19 +6,15 @@ import tsconfigPath from 'vite-tsconfig-paths';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    svgr(),
-    tsconfigPath(),
-    checker({ typescript: true }),
-  ],
+  plugins: [react(), svgr(), tsconfigPath(), checker({ typescript: true })],
   test: {
     globals: true,
     environment: 'jsdom',
-    setupFiles: ['./src/setup-tests.ts'],
+    setupFiles: ['./__test__/setup-tests.ts'],
   },
   // To automatically open the server in the browser
   server: {
     open: '/',
+    port: 3000,
   },
 });
