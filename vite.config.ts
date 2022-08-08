@@ -12,9 +12,7 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./__test__/setup-tests.ts'],
   },
-  // To automatically open the server in the browser
   server: {
-    open: '/',
     port: 3000,
   },
 });

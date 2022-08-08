@@ -59,7 +59,7 @@ is very rich)
   git clone https://github.com/AugustoTI/template-vite-reactTS.git <project name>
   cd <project name>
   yarn
-  yarn start
+  yarn dev
 ```
 
 > don't forget to rename the project in `package.json` and remove the hidden
