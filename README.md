@@ -19,9 +19,9 @@ It will help you format your code as you develop. The default file that comes
 with the template is to my liking, but you are free to change it to your
 own.😎👍🏻
 
-> If you have the Prettier extension installed. To get the prettier settings
-> correct, create a folder at the root of your project called `.vscode` and
-> create a `settings.json` file with the following configuration check:
+> If you have the Prettier extension installed. To fix the prettier settings,
+> add this setting to the `settings.json` file of your `.vscode` folder located
+> in the root folder
 
 ```json
 {
@@ -62,5 +62,10 @@ is very rich)
   yarn dev
 ```
 
-> don't forget to rename the project in `package.json` and remove the hidden
-> `.git` folder from the project
+> don't forget to rename the project in package.json and remove the existing
+> .git folder. After that, initialize a new git repository
+
+```bash
+  rm -rf .git
+  git init
+```
