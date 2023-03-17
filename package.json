@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest --passWithNoTests --changed HEAD~1",
+    "test": "vitest --passWithNoTests --changed",
     "test:coverage": "vitest run --coverage",
     "lint": "eslint . --fix --max-warnings=0"
   },
