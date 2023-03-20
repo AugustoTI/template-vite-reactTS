@@ -11,9 +11,6 @@ export default defineConfig({
     globals: true,
     setupFiles: ['./test/setup.ts'],
     exclude: [...configDefaults.exclude, 'test'],
-    coverage: {
-      enabled: true,
-    },
   },
   server: {
     port: 3000,
