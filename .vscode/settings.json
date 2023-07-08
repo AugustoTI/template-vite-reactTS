@@ -3,5 +3,7 @@
     "source.fixAll": true,
     "soucer.fixAll.eslint": true
   },
-  "prettier.configPath": "./.prettierrc.json"
+  "prettier.configPath": "./.prettierrc.json",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
 }

@@ -3,6 +3,7 @@
     "editorconfig.editorconfig",
     "mikestead.dotenv",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "yoavbls.pretty-ts-errors"
   ]
 }
