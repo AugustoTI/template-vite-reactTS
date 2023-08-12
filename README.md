@@ -58,8 +58,8 @@ is very rich)
 ```bash
   git clone https://github.com/AugustoTI/template-vite-reactTS.git <project name>
   cd <project name>
-  yarn
-  yarn dev
+  pnpm i
+  pnpm dev
 ```
 
 > don't forget to rename the project in package.json and remove the existing

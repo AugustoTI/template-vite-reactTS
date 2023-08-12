@@ -10,7 +10,18 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-*.local
+
+# Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+/coverage
+
+# Typescript
+*.tsbuildinfo
 
 # Editor directories and files
 .idea
@@ -21,6 +32,3 @@ dist-ssr
 *.sln
 *.sw?
 
-coverage/
-venv
-__localcode
