@@ -9,8 +9,8 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
     globals: true,
-    setupFiles: ['./test/setup.ts'],
-    exclude: [...configDefaults.exclude, 'test'],
+    setupFiles: ['./vitest.setup.ts'],
+    exclude: [...configDefaults.exclude, 'vitest.setup.ts'],
   },
   server: {
     port: 3000,

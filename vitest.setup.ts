@@ -1,4 +1,5 @@
 import '@testing-library/jest-dom'
-// add all jest-extended matchers
 import * as matchers from 'jest-extended'
+import { expect } from 'vitest'
+
 expect.extend(matchers)
