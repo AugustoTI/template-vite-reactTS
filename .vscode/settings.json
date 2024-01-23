@@ -1,7 +1,7 @@
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "soucer.fixAll.eslint": true
+    "source.fixAll": "explicit",
+    "soucer.fixAll.eslint": "explicit"
   },
   "prettier.configPath": "./.prettierrc.json",
   "editor.formatOnSave": true,
